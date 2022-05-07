@@ -2,31 +2,32 @@ import Image from "next/image"
 import React from "react"
 import Member from '../components/member'
 
+import { Tile } from "./tile"
+
+
 
 const Aboutme: React.FC = () => {
     return (
 
-        <section className={`flex flex-col bg-orange-50 py-20 text-3xl md:text-4xl text-stone-600`}>
-            <div className="container mx-auto px-11">
-
-{/* Text */}
-
-                <p className=" max-w-6xl mx-auto lg:text-4xl text-4xl tracking-tight " >
-                    <strong className="letterspacing-far">Not shipping any of your apps on time, never.</strong> Me, the one man team of one non-graduated engineer has yet to create great user experience or memory safe code in 
-                    software or contributions to open source projects. </p>
-
-                <br></br>
-                <p className=" max-w-6xl mx-auto lg:text-4xl text-4xl tracking-tight" >
-                    To change this, i will share my journey to become a reliable developer and teamplayer.</p>
-
-
-{/* Image Row as Member */}
-
-                </div>
-                    <div className="container mx-auto text-center mt-12 px-11">
-                    <Member id="" name=""  socialId="GitHub - NavigationHazard" 
-                    link="https://github.com/navigationhazard/"/>
-               </div>
+        <section className={`flex flex-col sticky bg-white-1500 pt-10 text-3xl md:text-4xl text-emerald-1500`}>
+            <div className="container mx-auto pl-5">
+                <span className="mb-6 text-red-1500 text-sm font-bold ">OUR WORK</span>
+                <h2 className="mb-4 text-slate-1500 text-3xl font-bold">Websites</h2>
+            </div>
+            <div className="grid lg:grid-cols-4 grid-cols-2 container mx-auto ">
+                <Tile id={'01'} name={'Web development'} text={'Gapsy is a digital agency specializing in mobile and web design and development, branding and animation.'}>
+                
+                </Tile>
+                <Tile id={'02'} name={'C++ Enthusiast'} text={'Gapsy is a digital agency specializing in mobile and web design and development, branding and animation.'}>
+                
+                </Tile>
+                <Tile id={'03'} name={'Mobile Development'} text={'Gapsy is a digital agency specializing in mobile and web design and development, branding and animation.'}>
+                
+                </Tile>
+                <Tile id={'04'} name={'Student project'} text={'Gapsy is a digital agency specializing in mobile and web design and development, branding and animation.'}>
+                
+                </Tile>
+            </div>
         </section>
     )
 }

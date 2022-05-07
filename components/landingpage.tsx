@@ -21,9 +21,11 @@ const Landingpage: React.FC = () => {
 // Content
     return (
 
-        <div ref={refContainer} style={{transform: `translateY(-${progress*20}vh)` }}
-            className="min-h-screen  bg-slate-1500 flex items-start justify-center flex-col-3  sticky top-0 -z-10  ">
-            <div className='flex h-[75vh] '>   
+        <div 
+            className="min-h-screen  bg-slate-1500 flex items-start justify-center flex-col-3  sticky  -z-10  ">
+         
+            <div className='flex h-[75vh] bg-slate-1500'>   
+           
                 <div className='order-1 px-5 mb-5 w-[5%] flex justify-center items-end'>
                     <ul className='list-none '>
                         <li className='pb-2'>
