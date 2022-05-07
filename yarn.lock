@@ -521,7 +521,14 @@
   "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.137.tgz"
   "version" "1.4.137"
 
-"embla-carousel@^6.2.0":
+"embla-carousel-react@^6.2.0":
+  "integrity" "sha512-XshB7pmmhso/fzENefflWw5/N3HqCjO8H5CkzQxuCQqV9w+bvEaBkjUZ6fxfqLUMMSKFWIQvMD6uo9f8oKS+2g=="
+  "resolved" "https://registry.npmjs.org/embla-carousel-react/-/embla-carousel-react-6.2.0.tgz"
+  "version" "6.2.0"
+  dependencies:
+    "embla-carousel" "6.2.0"
+
+"embla-carousel@^6.2.0", "embla-carousel@6.2.0":
   "integrity" "sha512-dSNsiQ7nmSQJZgbYfZCLdzrnznHwpaAcdJFcMRKgm/pjH1doOgxmfsvlMy4VfO4J11hLz8jm/W8WxSSDqfuu4w=="
   "resolved" "https://registry.npmjs.org/embla-carousel/-/embla-carousel-6.2.0.tgz"
   "version" "6.2.0"
@@ -1201,6 +1208,11 @@
     "array-includes" "^3.1.4"
     "object.assign" "^4.1.2"
 
+"keen-slider@^6.6.13":
+  "integrity" "sha512-kTPIhazE/6EhG7Z0d5OzweF1x7oRGS4HIoX0PdZB1kgYXuROW8vJPb0//BHIffZtQ1SzGqSWtxsWe3TgN9RtIA=="
+  "resolved" "https://registry.npmjs.org/keen-slider/-/keen-slider-6.6.13.tgz"
+  "version" "6.6.13"
+
 "language-subtag-registry@~0.3.2":
   "integrity" "sha512-L0IqwlIXjilBVVYKFT37X9Ih11Um5NEl9cbJIuU/SwP/zEEAbBPOnEeeuxVMf45ydWQRDQN3Nqc96OgbH1K+Pg=="
   "resolved" "https://registry.npmjs.org/language-subtag-registry/-/language-subtag-registry-0.3.21.tgz"
@@ -1581,7 +1593,7 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
-"react@^17.0.2 || ^18.0.0-0", "react@^18.1.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@18.1.0":
+"react@^17.0.2", "react@^17.0.2 || ^18.0.0-0", "react@^18.1.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@18.1.0":
   "integrity" "sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.1.0.tgz"
   "version" "18.1.0"

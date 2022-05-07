@@ -13,6 +13,7 @@ import Member from '../components/member'
 import WorkImages from '../components/workimages'
 
 
+
 const Home: NextPage = () => {
     return (
         <div>
@@ -26,7 +27,7 @@ const Home: NextPage = () => {
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"></link>
             </Head>
             <Landingpage />
-
+    
             <WorkImages/>
             <Aboutme />
           
