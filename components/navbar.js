@@ -27,7 +27,7 @@ export default function Navbar() {
     const [open, setOpen] = useState(false)
     return (
         <div className='flex flex-col bg-slate-1500 justify-content'>
-        <nav className="bg-slate-1500 lg:min-w-[960px] lg:h-24 lg:pt-2 mx-auto ">
+        <nav className="bg-slate-1500 pt-5 lg:min-w-[960px] lg:h-24 lg:pt-2 mx-auto ">
             <MobileNav open={open} setOpen={setOpen}/>
              <div className=" container flex justify-center items-center lg:min-w-[1260px] w-full min-w-[330px]">
 
@@ -38,7 +38,7 @@ export default function Navbar() {
                     <span className={`h-[2px] w-full bg-white-1500 rounded-lg transform transition duration-300 ease-in-out ${open ? "rotate-45 translate-y-1.5" : ""}`} />
                     <span className={`h-[2px] w-full bg-white-1500 rounded-lg transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-2" : ""}`} />
                 </div>
-                <div className="flex justify-start lg:scale-150 scale-[0.7]">
+                <div className="flex justify-start lg:scale-100 scale-[0.7]">
                     <Image src="/assets/logos/logobig.svg" alt="logo" height={100} width={230} />
                 </div>
         
@@ -56,7 +56,7 @@ export default function Navbar() {
                         ABOUT
                     </NavLink>
                 </div>
-                <div className="w-[50%] flex justify-end mr-0 ml-auto items-start pl-0 lg:scale-150 scale-[0.8]  ">
+                <div className="lg:w-auto w-[50%] flex justify-end mr-0 ml-auto items-start pl-0 lg:scale-150 scale-[0.8]  ">
                
                    <button className='bg-red-1500 py-2 px-4 text-white-1500 rounded-[3px] text-[0.7em]' > CONTACT US</button>
                     
